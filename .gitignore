@@ -1,0 +1,47 @@
+# Created by .ignore support plugin (hsz.mobi)
+.*
+!.gitignore
+!.gitattributes
+.cache
+/.classpath
+db
+dist
+.DS_Store
+**/*.DS_Store
+eclipse
+*.eml
+.history
+.idea
+/.idea_modules
+*.iml
+lib_managed
+log
+logs
+modules
+/out
+precompiled
+/.project
+project/project
+project/target
+/RUNNING_PID
+server.pid
+/.settings
+.target
+test-result
+tmp
+.idea_modules
+bin
+*.class
+*.log
+browserConfig.properties
+
+# sbt specific
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
