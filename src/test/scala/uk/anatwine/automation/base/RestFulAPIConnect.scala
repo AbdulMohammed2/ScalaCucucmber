@@ -57,6 +57,7 @@ object RestFulAPIConnect {
   {
     //val contentReturn = getRestResponse("https://contactsapi.apispark.net/v1/companies/")
     val xml = JSON.parseFull(restContent)
+    println(xml)
     xml match {
       case Some(m: Map[String, Any]) => m("id") match
       {

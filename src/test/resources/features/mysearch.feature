@@ -1,4 +1,4 @@
-@testPractise
+@search
 Feature: My first cucumber acceptance feature
 
 

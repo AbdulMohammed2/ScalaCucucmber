@@ -11,10 +11,12 @@ import org.junit.runner.RunWith
 @CucumberOptions(
   features = Array("src/test/resources/features/"),
   glue = Array("uk.anatwine.automation.stepdefs"),
-  tags = Array("@sc1"),
+  tags = Array("@testPractise1"),
   format = Array("pretty", "html:target/cucumber-report"
   )
 )
 class AnatTestRunner {
+
+
 
 }
